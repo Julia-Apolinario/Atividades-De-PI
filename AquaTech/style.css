@@ -1,0 +1,154 @@
+body {
+    margin: 0;
+    padding: 0;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    background-color: black;
+}
+
+.header {
+    border-bottom: 3px solid #32b9cd;
+}
+
+.container {
+    align-items: center;
+    display: flex;
+    width: 80%;
+    margin: auto;
+}
+
+.header .container {
+    justify-content: space-between;
+}
+
+.titulo {
+    color: #32b9cd;
+}
+
+.navbar {
+    display: flex;
+    flex-direction: row;
+    list-style: none;
+    width:  300px;
+    justify-content: space-between; 
+    color: #e3b062;
+    align-items: center;
+}
+
+.banner {
+    padding: 40px 0;
+    color: #fff;
+    height: 400px;
+    background-image: url("imagens/bg-jelly-fish-para_outras_pags.png");
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.banner .container {
+    justify-content: center;
+    align-items: center;
+    height: 100%;
+}
+
+.banner .container p {
+    font-size: 36px;
+    width: 25%;
+}
+
+.banner .container p span {
+    color: #32b9cd;
+    font-weight: bold;
+}
+
+.social{
+    background-color: #fff;
+    padding: 40px;
+}
+
+.social .container {    
+    justify-content: space-between;
+}
+
+.card{
+    text-align: center;
+    width: 150px;
+}
+
+.card img{
+    width: 100px;
+}
+.card h4{
+    font-size: 24px;
+}
+
+.footer {
+    height: 100px;
+    background-color: #32b9cd;
+}
+
+.footer .container {
+    justify-content: center;
+    align-items: center;
+    height: 100%;
+}
+
+.footer .container p {
+    font-size: 24px;
+}
+
+.logo {
+    width: 50px;
+}
+
+.login .container {
+    justify-content: center;
+    background-image: url("imagens/bg-jelly-fish-para_outras_pags.png");
+    background-size: cover;
+    height: 75vh;
+}
+.login .card{
+    background-color: white;
+    display: flex;
+    flex-direction: column;
+    height: 300px;
+    width: 300px;
+    border-radius: 30px;
+    border: 2px solid #013165;
+}
+
+.card h2{
+    color: #013165;
+}
+
+.campo{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.campo input{
+    margin: 13px;
+    width: 200px;
+    padding: 9px 15px;
+    border: 2px solid #013165;
+    border-radius: 30px;
+
+}
+
+.formulario button{ 
+margin-top: 20px;
+padding: 10px 20px;
+background-color: #013165;
+color: white;
+border: none;
+cursor: pointer;
+border-radius: 10px;
+}
+
+.header a {
+    text-decoration: none;
+    color: #e3b062;
+    cursor: pointer;
+}
+.agora {
+    font-weight: 800;
+}
